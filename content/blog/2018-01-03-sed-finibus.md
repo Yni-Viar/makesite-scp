@@ -1,4 +1,5 @@
-<!-- title: Sed Finibus -->
+<!-- title: Sigma-10 theme -->
+<!-- style: ./css/Sigma-10/sigma.css -->
 Sed finibus fermentum convallis. Sed consequat, lacus a pellentesque
 suscipit, lorem libero egestas dui, sit amet volutpat mi dolor sit amet
 nisl. Maecenas faucibus iaculis nibh id gravida. Aenean ac nulla
