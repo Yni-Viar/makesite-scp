@@ -1,5 +1,13 @@
+# Makesite-scp
+
+A version of [makesite.py](https://github.com/sunainapai/makesite), but adapted for SCP-Wiki CSS layout.
+
+## Makesite-SCP, as original makesite.py supports ONLY markdown. FTML is NOT supported!
+
+---
+Makesite.py original description begin:
+
 makesite.py
-===========
 
 Take full control of your static website/blog generation by writing your
 own simple, lightweight, and magic-free static site generator in
