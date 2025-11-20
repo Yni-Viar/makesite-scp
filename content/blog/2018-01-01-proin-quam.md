@@ -1,5 +1,5 @@
-<!-- title: Basalt theme 🙂 -->
-<!-- style: ./css/basalt/basalt-bedrock.css -->
+<!-- title: Basalt theme -->
+<!-- style: ./css/Basalt/basalt-bedrock.css -->
 Proin quam urna, pulvinar id ipsum ac, mattis consectetur ante. Praesent
 non justo lectus. Duis egestas arcu libero, quis laoreet dolor volutpat
 ut. Donec facilisis orci sit amet sem blandit elementum. Vestibulum
