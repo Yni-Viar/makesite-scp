@@ -118,30 +118,27 @@
     --edit-area-toolbar-icon-size: 1.75rem;
     --edit-area-main-bg-color: var(--basalt-background-color);
     --edit-area-ancillary-bg-color: var(--basalt-secondary-color);
-    background-color: rgb(var(--basalt-background-color));
-    background-image: url('./background_image.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-html, body {
-    padding: 0%;
-    margin: 0;
-}
-
-html {
-    height: 100%;
 }
 
 body {
-    backdrop-filter: blur(8px);
-    background: #40404040;
     color: rgb(var(--basalt-main-text-color));
+    background-color: rgb(var(--basalt-background-color));
     font-family: var(--body-font);
     font-size: var(--true-font-size);
 }
 
 body, li, p { line-height: 1.5; }
+
+#content-wrap {
+    background-image: url('./background_image.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#main-content {
+    backdrop-filter: blur(8px);
+    background: #40404040;
+}
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
@@ -347,7 +344,10 @@ input[type="text"]:focus-visible {
     display: flex;
     grid-area: top-bar;
 }
-#top-bar div.mobile-top-bar > ul { display: none; }
+
+#top-bar div.mobile-top-bar > ul {
+	display: none;
+}
 
 #top-bar div.mobile-top-bar > .open-menu {
     grid-area: open-menu;
@@ -891,6 +891,11 @@ div#account-options > ul > li > a:is(:hover, :focus)::before,
 #side-bar > * { direction: ltr; }
 #side-bar a.close-menu, #side-bar:target a.close-menu {
     display: none;
+}
+
+#side-bar > ul
+{
+    list-style-type: none;
 }
 
 /*-----------------*/
